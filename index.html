@@ -375,42 +375,46 @@
                 </div>
 
 
-                <div class="contact__form grid">
+                <form action="https://submit-form.com/PwzLEA36r">
+                    <div class="contact__form grid">
 
-                    <div class="contact__inputs grid">
-                        <div class="contact__content">
-                            <label>Name</label>
-                            <input type="text" class="contact__input" id="name" name="Name" />
+                        <div class="contact__inputs grid">
+                            <div class="contact__content">
+                                 <label>Name</label>
+                                <input type="text" class="contact__input" id="name" name="Name" />
+                            </div>
+
+                            <div class="contact__content">
+                                <label>Email</label>
+                                <input type="email" class="contact__input" id="email" name="Email" />
+                            </div>
+
                         </div>
 
-                        <div class="contact__content">
-                            <label>Email</label>
-                            <input type="email" class="contact__input" id="email" name="Email" />
+                        <div class="grid">
+                            <div class="contact__content">
+                                <label>Contact</label>
+                                <input type="tel" class="contact__input" id="phoneno" name="Contact" />
+                            </div>
+
+                            <div class="contact__content">
+                                <label>Message</label>
+                                <textarea class="contact__input" cols="0" rows="7" id="message"
+                                    name="Message"></textarea>
+                            </div>
                         </div>
 
-                    </div>
 
-                    <div class="grid">
-                        <div class="contact__content">
-                            <label>Contact</label>
-                            <input type="tel" class="contact__input" id="phoneno" name="Contact" />
+                        <div>
+                            <button onclick="sendMail()" class="button  button--flex " name="SendMessage">
+                                <span>Send Message</span> <i class="uil uil-message  button__icon"></i>
+                            </button>
                         </div>
-
-                        <div class="contact__content">
-                            <label>Message</label>
-                            <textarea class="contact__input" cols="0" rows="7" id="message" name="Message"></textarea>
-                        </div>
-                    </div>
-
-
-                    <div>
-                        <button onclick="sendMail()" class="button  button--flex " name="SendMessage">
-                            <span>Send Message</span> <i class="uil uil-message  button__icon"></i>
-                        </button>
                     </div>
                 </div>
-            </div>
-        </section>
+                   </form>
+                   
+            </section>
     </main>
 
 
